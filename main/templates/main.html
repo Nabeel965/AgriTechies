@@ -1,0 +1,26 @@
+
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Welcome To Cropify!</h1>
+<h2>Registering as a:</h2>
+<h3>Farmer</h3>
+<div class="row">
+    <a class="btn btn-success" href="farmer/register" role="button">Farmer Registration</a>
+</div>
+<h3>Warehouse Onwer</h3>
+<div class="row">
+    <a class="btn btn-warning" href="warehouse/register" role="button">Warehouse Owner Registration</a>
+</div>
+<h2>Already Registered?</h2>
+<h3>Farmer Login</h3>
+<div class="row">
+    <a class="btn btn-success" href="farmer/login" role="button">Farmer Login</a>
+</div>
+<h3>Warehouse Owner Login</h3>
+<div class="row">
+    <a class="btn btn-warning" href="warehouse/login" role="button">Warehouse Owner Login</a>
+</div>
+
+{% endblock %}
