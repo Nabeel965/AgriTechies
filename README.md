@@ -2,7 +2,7 @@
 
 This repository contains website for the Cropify recommendation system.
 
-##Requirements
+## Requirements
 
 Python 3+
 Django 
